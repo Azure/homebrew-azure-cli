@@ -3,8 +3,8 @@ cask "azure-cli" do
   os macos: "macos"
 
   version "2.84.0"
-  sha256 arm:   "cdb13cd063d6fac933ed335414f8053f85304dfc9d9187e047af777e4d3842d5",
-         intel: "d6e21826ace7371094deac36d7956dadd806fdd71b97c8c7bdb6c6be105277a1"
+  sha256 arm:   "946e37b748f12f2c7fa9360f335887d5d3905d057d8e1bc27e05fc5a0482b077",
+         intel: "0dfc731c2489dccd75bc9d39754cbdb2ae9e769043cb367144760b53acf494c2"
 
   url "https://github.com/Azure/homebrew-azure-cli/releases/download/azure-cli-#{version}/azure-cli-#{version}-#{os}-#{arch}.tar.gz"
   name "Azure CLI"
