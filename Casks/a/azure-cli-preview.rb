@@ -1,9 +1,9 @@
 cask "azure-cli-preview" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "2.89.0"
-  sha256 arm:   "ac5e8ce16b2355a55a3bea20afee9d3d2dbc1289a18e8aa3625d0b62910124ba",
-         intel: "9b94be70fe95b547b1208c07f3018e8880a5676aaff3335005ab445ab5044792"
+  version "2.89.1"
+  sha256 arm:   "1e1e9b30d8933167545abb97b99c9b9e86f54514fcb522161cc375134338a229",
+         intel: "deaf768bba6943a9872c76ecd6e6e0a38cf97d810d8c152ba82a2556ecc8d703"
 
   url "https://github.com/Azure/azure-cli/releases/download/azure-cli-#{version}/azure-cli-#{version}-macos-#{arch}.tar.gz",
       verified: "github.com/Azure/azure-cli/"
